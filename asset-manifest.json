@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/birthday-main/static/css/main.9a0bd6cb.css",
+    "main.js": "/birthday-main/static/js/main.d4a90775.js",
+    "static/media/misha.mp4": "/birthday-main/static/media/misha.b61f1386894af6b39176.mp4",
+    "static/media/varya1.mp4": "/birthday-main/static/media/varya1.42014139e4f074e8d3ba.mp4",
+    "static/media/mark.mp4": "/birthday-main/static/media/mark.ce58390ccb74547b6950.mp4",
+    "static/media/nastya.mp4": "/birthday-main/static/media/nastya.31c57aa59d3c74d25a05.mp4",
+    "static/media/illia.mp4": "/birthday-main/static/media/illia.306abae1b3b9a3455ba6.mp4",
+    "static/media/dasha.mp4": "/birthday-main/static/media/dasha.06dbdc878cd60fae6aa8.mp4",
+    "static/media/zlata.mp4": "/birthday-main/static/media/zlata.3597ef1fec79e56df85d.mp4",
+    "static/media/back.jpg": "/birthday-main/static/media/back.be70436af5264e15accb.jpg",
+    "index.html": "/birthday-main/index.html",
+    "main.9a0bd6cb.css.map": "/birthday-main/static/css/main.9a0bd6cb.css.map",
+    "main.d4a90775.js.map": "/birthday-main/static/js/main.d4a90775.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a0bd6cb.css",
+    "static/js/main.d4a90775.js"
+  ]
+}

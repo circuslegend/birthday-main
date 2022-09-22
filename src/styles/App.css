@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+box-sizing: border-box;
+padding:0px;
+margin: 0px;
+}
+html{
+  font-size: 32px;
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-color: white;
+  border-right: 5px solid #1B0773;
+  flex-direction: column;
+  height:100vh;
+}
+.costil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-color: white;
+  border-right: 3px solid #1B0773;
+  flex-direction: column;
+  height:100vh;
+  width:80vw;
+}
+.car{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+  width: 100%;
+  background-color: #FFDE59;
+  border-top: 5px solid #1B0773;
+  border-bottom: 5px solid #1B0773;
+  font-family: Caveat;
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height:15%;
+  width:100%;
+  padding-top:10px;
+  color: #1B0773;
+}
+.text{
+  height:35%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-style: italic;
+}
+.type{
+  min-height:10%;
+}
+.sp{
+  font-family:'Courier New', Courier, monospace;
+}
+.text1{
+  background-color: #BD95CB;
+}
+.text2{
+  background-color: #e56565;
+}
+.text3{
+  background-color: #ca69a0;
+}
+.text4{
+  background-color: #5f91b5;
+}
+.text5{
+  background-color: #58c178;
+}
+.text6{
+  background-color: #ed9a5f;
+}
+.text7{
+  background-color: #59ba98;
+}
+.Start{
+  height:95vh;
+  font-size: 2rem;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image:
+  linear-gradient(to bottom, rgba(251, 251, 251, 0.562), rgba(214, 178, 68, 0.808)),
+  url('../Vids/back.jpg');
+  background-size: cover;
+  background-position: 93% 100%;
+}
+.text > p {
+  width:80%;
+  text-align: center;
+  font-weight:300;
+  font-family:Roboto Slab ;
+}
+.btn{
+  height: 10%;
+}
+.baloons{
+  height:95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.btn svg{
+  fill:#1B0773;
+}
+.typingText{
+  color:#1B0773;
+  font-family: 'Press Start 2P';
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.Video{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  height: 50vh;
+  width:100%;
+}
+.main{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:28%;
+}
+div.video-react.video-react-fluid{
+  border-radius: 20px;
+}
+video{
+  border-radius: 20px;
+}
+my-class{
+  color:#1B0773;
+}
+@media (max-width:499px){
+  html{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+    margin:5px;
+  }
+  .main{
+    padding: 5%;
+  }
+  .Video{
+    height: 40%;
+  }
+  .text{
+    height:50%;
+  }
+}
+@media (min-width:500px) and (max-width:799px){
+  html{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: .9rem;
+    margin:5px;
+  }
+  .main{
+    padding: 12%;
+  }
+}
+@media (min-width:800px) and (max-width:1030px){
+  h1{
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 0.6rem;
+    margin:10px;
+  }
+  .main{
+    padding: 15%;
+  }
+}
+@media (min-width:1031px) and (max-width:1200px){
+  h1{
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 0.7rem;
+    margin:15px;
+  }
+  .main{
+    padding: 20%;
+  }
+}
+@media (min-width:1201px){
+  h1{
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.75rem;
+    margin:20px;
+  }
+}
+@media (min-width:600px) and (max-width:1800px) and (min-height:300px) and (max-height:700px){
+  h1{
+    font-size: 18px;
+  }
+  html{
+    font-size: 25px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.5rem;
+    margin:5px;
+  }
+  .main{
+    padding: 27%;
+  }
+}

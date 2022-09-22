@@ -7,6 +7,7 @@ import video6 from './Vids/varya1.mp4';
 import video4 from './Vids/mark.mp4';
 import video2 from './Vids/nastya.mp4';
 import video7 from './Vids/illia.mp4';
+import video3 from './Vids/misha.mp4';
 import { FaChevronDown} from 'react-icons/fa';
 import { useState, useRef, useEffect } from 'react';
 import { HashLink} from 'react-router-hash-link';
@@ -90,8 +91,9 @@ function App() {
               text={`люби себя, люби своих близких, будь любима и счастлива!!!!`}/>
             </div>
             <div className='item'>
-              <Section name={'Миша'} smile={`:3`} vidOp={video1} id={3} 
-              text={`ABOBA`}/>
+              <Section name={'Миша'} smile={`:3`} vidOp={video3} id={3} 
+              text={`Из всех сперматозоидов своего отца ты оказалась быстрее всех.
+              Продолжай в том же духе!`}/>
             </div>
             <div className='item'>
               <Section name={'Марк'} smile={`(•◡•)`} vidOp={video4} id={4} 
